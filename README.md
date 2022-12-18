@@ -10,7 +10,7 @@
 
 ### githubに上げたindex.htmlを移動してみる
 
-実験前の状況：新規のパブリックリポジトリにindex.htmlをあ上げて、githubのSettings➜Pages➜Build and development➜Sourceの設定は[GitHub Actions]にしただけ、他のオプションは何もいじっていなかった。
+実験前の状況：新規のパブリックリポジトリにindex.htmlをアップロードして、githubのSettings➜Pages➜Build and development➜Sourceの設定は[GitHub Actions]にしただけ、他のオプションは何もいじっていなかった。
 ![実験前](images/2022_12_18_8_52.png)  
 
 ちなみにデフォルトで、Actionsに設定されていたワークフローファイル.github/workflows/pages.ymlは[ここ](https://github.com/yuasys/myblog/actions/runs/3722373156/workflow)を参照。
