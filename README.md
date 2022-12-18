@@ -17,20 +17,40 @@
 
 実験の内容：index.htmlを2022-09-17/index.htmlに場所を移動し、ルートのindex.htmlにはリンクだけ置いてみた。
 
-```html
+|/2022-09-17/index.html|
+|----|
+
+``` html
 <!DOCTYPE html>
 <html lang="jp">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" ntent="IE=edge">
+  <meta name="viewport" ntent="width=device-width, initial-scale=1.0">
   <title>MyBlog|Yuasys-Nob</title>
 </head>
 <body>
   <p><a href="2022-09-17">2022-09-17</a></p>
-  
 </body>
 </html>
+```
+
+| /index.html |
+|----|
+
+``` html
+  (略)
+
+  <!-- リンク先をリモート用に設定（絶対バス）-->
+  <a href="https://yuasys.github.io/myblog/">最初に戻る</a>
+
+  <!-- リンク先をローカル用に設定（相対パス）
+  <a href=".">最初に戻る</a>
+  -->
+  
+  <br />
+  <hr />
+  （略）
 ```
 
 実験結果：【50%成功】最初リンクだけのページが表示され、リンクを押下すると2022-09-17に移動して正しく表示できた。しかし、移動後の画面で「最初に戻る」リンクがローカル、リモートどちらかがエラーになるという不具合が発生した。  
